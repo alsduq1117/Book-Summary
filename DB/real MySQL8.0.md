@@ -777,15 +777,3 @@ InnoDB 는 압축된 테이블의 데이터 페이지를 버퍼 풀에 적재하
 압축된 데이터 페이지가 자주 사용되는 경우에는 Unzip_LRU 리스트에 압축 해제된 페이지를 계속 유지하여 압축 및 압축 해제 작업 최소화
 
 압축된 페이지가 사용되지 않을 경우 LRU 리스트에서 제거
-
-### 테이블 압축 관련 설정
-
-innodb_cmp_per_index_enabled
-
-innodb_compression_level
-
-innodb_compression_failure_threshold_pct
-
-innodb_compression_pad_pct_max
-
-innodb_log_compressed_pages
